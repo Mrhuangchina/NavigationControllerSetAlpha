@@ -13,6 +13,7 @@
 		A312A327213037F400B35AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A312A325213037F400B35AC7 /* Main.storyboard */; };
 		A312A329213037F400B35AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A312A328213037F400B35AC7 /* Assets.xcassets */; };
 		A312A32C213037F400B35AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A312A32A213037F400B35AC7 /* LaunchScreen.storyboard */; };
+		A312A33821303FE600B35AC7 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A312A33721303FE600B35AC7 /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A312A328213037F400B35AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A312A32B213037F400B35AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A312A32D213037F400B35AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A312A33621303FE600B35AC7 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		A312A33721303FE600B35AC7 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		A312A31B213037F400B35AC7 /* NavigationControllerSetAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				A312A33521303FE600B35AC7 /* Category */,
 				A312A31F213037F400B35AC7 /* AppDelegate.h */,
 				A312A320213037F400B35AC7 /* AppDelegate.m */,
 				A312A322213037F400B35AC7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				A312A31D213037F400B35AC7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A312A33521303FE600B35AC7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A312A33621303FE600B35AC7 /* UIImage+Image.h */,
+				A312A33721303FE600B35AC7 /* UIImage+Image.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A312A324213037F400B35AC7 /* ViewController.m in Sources */,
+				A312A33821303FE600B35AC7 /* UIImage+Image.m in Sources */,
 				A312A321213037F400B35AC7 /* AppDelegate.m in Sources */,
 				A312A31E213037F400B35AC7 /* main.m in Sources */,
 			);
